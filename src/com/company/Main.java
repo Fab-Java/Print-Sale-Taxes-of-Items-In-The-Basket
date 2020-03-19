@@ -12,6 +12,9 @@ public class Main {
         Car myCar = new Car("Lamborghini");
         System.out.println(myCar.getName());
         myCar.start();
+        Car otherCar = new Car("Bugatti on Steroid");
+        System.out.println(otherCar.getName());
+        otherCar.start();
 
     }
 }
